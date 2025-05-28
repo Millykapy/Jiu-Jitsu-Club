@@ -5,3 +5,8 @@ h1 {
 p {
   font-family: bookman old style;
 }
+.motto {
+  border: 1px solid rgb(194, 194, 248);
+  padding: 20px;
+  margin: 5px;
+}

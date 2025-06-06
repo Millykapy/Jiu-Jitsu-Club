@@ -1,26 +1,42 @@
-body {
-  margin: 0;
-  padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+h1 {
+  font-size: 96px;
+  padding: 80px;
 }
 
-.group-photo {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  padding: 0px;
-  margin-top: 8px;
-  height: 600px;
+.mb-5 {
+  font-family: "Poppins", serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+  color: #272142;
 }
-.main {
+.join-now {
+  background: #6c63ff;
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+}
+.btn-branding {
+  color: green;
+}
+.logo {
+  display: flex;
+  float: left;
+  justify-content: flex-start;
+}
+.hero {
   text-align: center;
-  margin: 0 auto;
-  padding-top: 60px;
-  margin-bottom: 120px;
-  min-height: 100vh;
-  background: url("/image/group-photo.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
+  margin: 0px;
 }
 .map {
   overflow: hidden;
@@ -53,4 +69,8 @@ textarea {
 }
 .email-link {
   text-align: center;
+}
+p {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
 }

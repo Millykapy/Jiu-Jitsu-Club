@@ -1,3 +1,9 @@
+.container {
+  background-image: url("/image/group-photo.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 h1,
 h2,
 h3,
@@ -10,22 +16,18 @@ h6 {
 }
 h1 {
   font-size: 96px;
-  padding: 80px;
+  padding: 20px;
+  text-align: center;
 }
 
 .mb-5 {
   font-family: "Poppins", serif;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 2;
+  font-size: 30px;
   color: #272142;
+  margin-bottom: 20px;
 }
-.join-now {
-  background: #6c63ff;
-  color: white;
-  border-radius: 4px;
-  font-size: 18px;
-}
+
 .btn-branding {
   color: green;
 }
@@ -36,12 +38,12 @@ h1 {
 }
 .hero {
   text-align: center;
-  margin: 0px;
+  padding: 0px;
 }
 .map {
   overflow: hidden;
   max-width: 100%;
-  width: 300px;
+  width: 350px;
   height: 300px;
 }
 .my-map-canvas {
@@ -67,10 +69,10 @@ textarea {
   margin: 12px 0;
   border: 1px solid #929292;
 }
-.email-link {
-  text-align: center;
-}
+
 p {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", serif;
   font-size: 16px;
+  padding: 15px;
+  line-height: 1.4;
 }

@@ -29,17 +29,19 @@ h1 {
 }
 
 .btn-branding {
-  color: green;
+  color: red;
 }
 .logo {
   display: flex;
   float: left;
   justify-content: flex-start;
 }
+
 .hero {
   text-align: center;
   padding: 0px;
 }
+
 .map {
   overflow: hidden;
   max-width: 100%;
@@ -75,4 +77,11 @@ p {
   font-size: 16px;
   padding: 15px;
   line-height: 1.4;
+}
+.tornment-photo {
+  width: 100%;
+  margin: 15px 0;
+  border-radius: 30px;
+  padding-top: 25px;
+  display: block;
 }

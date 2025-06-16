@@ -40,6 +40,7 @@ h1 {
 .hero {
   text-align: center;
   padding: 0px;
+  background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
 }
 
 .map {
@@ -71,6 +72,18 @@ textarea {
   margin: 12px 0;
   border: 1px solid #929292;
 }
+.form {
+  border: 1px solid rgb(78, 77, 77);
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  background: linear-gradient(
+    -180deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(109, 107, 107, 0.5) 100%
+  );
+}
 
 p {
   font-family: "Poppins", serif;
@@ -80,8 +93,16 @@ p {
 }
 .tornment-photo {
   width: 100%;
-  margin: 15px 0;
+  margin: 0px;
   border-radius: 30px;
-  padding-top: 25px;
   display: block;
+}
+.call-us {
+  font-family: 40px;
+  color: green;
+  padding-top: 40px;
+}
+.contact {
+  font-weight: bold;
+  font-style: italic;
 }

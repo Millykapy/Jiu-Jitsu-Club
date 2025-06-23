@@ -18,6 +18,17 @@ h1 {
   font-size: 96px;
   padding: 20px;
   text-align: center;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 44px;
+  line-height: 1.5;
+}
+h3 {
+  font-size: 44px;
+}
+h4 {
+  font-size: 44px;
 }
 
 .mb-5 {
@@ -89,7 +100,8 @@ p {
   font-family: "Poppins", serif;
   font-size: 16px;
   padding: 15px;
-  line-height: 1.4;
+  line-height: 1.7;
+  margin: 0;
 }
 .tornment-photo {
   width: 100%;
@@ -105,4 +117,33 @@ p {
 .contact {
   font-weight: bold;
   font-style: italic;
+}
+ul {
+  list-style: none;
+}
+li {
+  font-size: 15px;
+  line-height: 30px;
+}
+table {
+  border-collapse: collapse;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+td,
+tr {
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .hero {
+    text-align: center;
+    padding: 80px 20px;
+  }
 }

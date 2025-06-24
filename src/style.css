@@ -50,7 +50,8 @@ h4 {
 
 .hero {
   text-align: center;
-  padding: 0px;
+  padding: 20px 15px;
+  width: 100%;
   background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
 }
 
@@ -142,8 +143,30 @@ tr {
   h2 {
     font-size: 40px;
   }
-  .hero {
-    text-align: center;
-    padding: 80px 20px;
-  }
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin: 15px 0;
+}
+img {
+  max-width: 100%;
+}
+.grid img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: all 150ms ease-in-out;
+}
+.grid img:hover {
+  transform: scale(2);
+}
+.judo-intro-picture {
+  border-radius: 10px;
+  transition: all 150ms ease-in-out;
+}
+.judo-intro-picture:hover {
+  filter: contrast(80%);
+  transform: scale(1.1);
 }
